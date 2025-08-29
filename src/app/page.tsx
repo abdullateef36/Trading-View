@@ -26,11 +26,11 @@ function TradingViewWidget() {
         "hide_legend": false,
         "hide_volume": false,
         "hotlist": false,
-        "interval": "15",
+        "interval": "1",
         "locale": "en",
         "save_image": true,
         "style": "1",
-        "symbol": "BINANCE:BTCUSDT",
+        "symbol": "FX_IDC:EURUSD",
         "theme": "dark",
         "timezone": "Etc/UTC",
         "backgroundColor": "#131722",
@@ -39,9 +39,8 @@ function TradingViewWidget() {
         "withdateranges": true,
         "compareSymbols": [],
         "studies": [
-          "BB@tv-basicstudies",
           {
-            "id": "BinaryOptionsTimePriceEntryHelper@tv-scripting",
+            "id": "uhKjTH9N@tv-scripting",
             "inputs": {
               "enableEngulfing": true,
               "enableWicks": true,
@@ -49,7 +48,7 @@ function TradingViewWidget() {
             }
           },
           {
-            "id": "TradeByTwoBars@tv-scripting",
+            "id": "5xeN8rqh@tv-scripting",
             "inputs": {}
           }
         ],
