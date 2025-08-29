@@ -39,7 +39,19 @@ function TradingViewWidget() {
         "withdateranges": true,
         "compareSymbols": [],
         "studies": [
-          "BB@tv-basicstudies"
+          "BB@tv-basicstudies",
+          {
+            "id": "BinaryOptionsTimePriceEntryHelper@tv-scripting",
+            "inputs": {
+              "enableEngulfing": true,
+              "enableWicks": true,
+              "highlightTimeAnchor": true
+            }
+          },
+          {
+            "id": "TradeByTwoBars@tv-scripting",
+            "inputs": {}
+          }
         ],
         "autosize": true
       }`;
